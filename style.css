@@ -1,0 +1,136 @@
+
+
+body {
+  background-color: rgb(212, 229, 243);
+  font-family: 'Open Sans', sans-serif;
+  padding: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 40px;
+  /* background-color: rgb(39, 50, 104); */
+  color: white;
+  text-shadow: 2px 2px 4px rgba(5, 5, 5, 0.5);
+  padding: 16px;
+  margin: 8px;
+  position: relative;
+  top: 0px;
+  bottom: 8px;
+
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+  display: block;
+}
+
+a:hover {
+
+}
+
+i {
+font-size: 40px;
+color: rgb(255, 255, 255);
+text-shadow: 2px 2px 4px rgba(5, 5, 5, 0.3);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.primary-button {
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 16px;
+  background-color: rgb(39, 50, 104);
+  color: white;
+}
+
+
+
+.card {
+  background-color: white;
+  margin: 16px auto;
+  padding: 32px;
+  border-radius: 8px;
+  width: 500px;
+  /* width: 450px; */
+  box-shadow: 0px 4px 10px rgba(208, 211, 231, .1);
+
+}
+
+.relative_position {
+  position: relative;
+
+}
+
+.whatever {
+  position: absolute;
+  top: 304px;
+  left: 450px;
+}
+
+.whatever2 {
+  position: absolute;
+  top: 239px;
+  left: 0px;;
+}
+
+#profile_pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#banner {
+  background-image: url("images/IMG_7498.JPG");
+  background-position: center;
+  background-size: cover;
+  text-align: left;
+  align-content: center;
+  margin: 16px auto;
+  padding: 32px;
+  border-radius: 8px;
+  width: 500px;
+  height: 350px;
+}
+
+@media (max-width: 960px)
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+
+  .card {
+    width: 600px;
+  }
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .card {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  .card {
+    width: 200px;
+  }
+}
